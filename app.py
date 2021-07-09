@@ -52,7 +52,7 @@ def load_data(): # a function or method  to load data into df and to get some in
   month_list= [{"label":key, "value":values} for key,values in month.items()]  # as we know to make a dropdown we need key (label to be specifc) and value 
 
   global date_list
-  date_list = [x for x in range(1, 32)] # as maximum we have 31 days in any month so 1 to 31
+  date_list = [x for x in range(1, 32)] 
 
 
   global region_list
