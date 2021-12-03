@@ -1,0 +1,4 @@
+pandas
+dash
+webbrowser
+plotly
